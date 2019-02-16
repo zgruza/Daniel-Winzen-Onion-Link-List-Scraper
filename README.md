@@ -3,6 +3,8 @@ This is simple Crawler for Onions & Descriptions in [onions.DanWin1210.me](https
 
 ++ This script is easy Customizable
 
+## Requirements
+[HtmlAgalityPack](https://www.nuget.org/packages/HtmlAgilityPack/)
 ## Setup
 ```
 1. Edit Database credetains in put_onion.php
