@@ -1,6 +1,8 @@
 # Daniel Winzen Onion Link List Crawler
-######## This is simple Crawler for Onions & Description in https://onions.danwin1210.me/
-######## ++ This script is easy Customizable
+This is simple Crawler for Onions & Description in https://onions.danwin1210.me/
+
+++ This script is easy Customizable
+
 ## Setup
 ```
 1. Edit Database credetains in put_onion.php
