@@ -90,11 +90,11 @@ namespace OnionParser
                         if (onion != string.Empty && description != string.Empty)
                             {
                                 // Put into SQL Database
-                                //WebClient put_data = new WebClient();
-                                //string url_put = "https://atlayo.com/%censored%/%censored%.php?onion="+onion+"&des="+description;
-                                //byte[] html = put_data.DownloadData(url_put);
-                                //UTF8Encoding utf = new UTF8Encoding();
-                                //string done_check = utf.GetString(html);
+                                WebClient put_data = new WebClient();
+                                string url_put = "https://domain.com/put_onion.php?onion="+onion+"&des="+description;
+                                byte[] html = put_data.DownloadData(url_put);
+                                UTF8Encoding utf = new UTF8Encoding();
+                                string done_check = utf.GetString(html);
 
                                 onion = string.Empty;
                                 description = string.Empty;
