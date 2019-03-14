@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Web;
 
 namespace OnionParser
 {
@@ -74,7 +75,7 @@ namespace OnionParser
                             {
                                 links++;
                                 //file.Write(" - " + cell.InnerText + Environment.NewLine);
-                                description = cell.InnerText;
+                                description = System.Uri.EscapeDataString(cell.InnerText); // << URL Encryption for .PHP
                                 table_column = 2;
                             }
 

@@ -6,7 +6,7 @@ $dbname = "sql_database";
 
 
 $onion = $_GET["onion"]; //<---- TEXT.ONION
-$des = $_GET["des"]; //<---- TEXT.DESCRIPTION
+$des = urldecode($_GET["des"]); //<---- TEXT.DESCRIPTION
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
