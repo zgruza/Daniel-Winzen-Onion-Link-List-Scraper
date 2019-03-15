@@ -46,6 +46,7 @@ namespace OnionParser
 
 
                         using (System.IO.StreamWriter file = File.AppendText("Onions.txt")) {
+                            // SKIP COLUMNS
                             if (table_column == 6)
                             {
                                 table_column = 0;
@@ -66,7 +67,6 @@ namespace OnionParser
                             {
                                 table_column = 3;
                             }
-
 
 
 
