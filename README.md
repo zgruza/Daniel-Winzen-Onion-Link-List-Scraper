@@ -1,5 +1,5 @@
-⛔️ DEPRECATED - Needs maintenance
-This project need # Daniel Winzen Onion Link List Crawler
+⛔️ DEPRECATED - Maintenance needed
+ # Daniel Winzen Onion Link List Crawler
 This is simple Crawler for Onions & Descriptions in [onions.DanWin1210.me](https://onions.danwin1210.me/)
 
 ++ This script is easy Customizable
